@@ -1,0 +1,251 @@
+
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Global styles */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Hero section */
+.hero {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+/* Features section */
+.features1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.features2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.feature {
+  flex: 1;
+  background-color: #f2f2f2;
+  text-align: justify;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Iscriviti section */
+.iscrizione {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+
+.form-wrapper {
+  background-color: #f2f2f2;
+  color:#1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%; /* Imposta la larghezza del wrapper in base alle tue esigenze */
+  margin: 0 auto; /* Centra il wrapper orizzontalmente */
+  padding: 0.5rem; /* Aggiungi uno spazio interno al wrapper */
+}
+
+
+.iscrizione h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.iscrizione form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.iscrizione label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.iscrizione input[type="text"],
+.iscrizione input[type="email"],
+.iscrizione input[type="password"] {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.iscrizione button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+.alreadysub {
+  background-color: #ffffff; /* Background bianco */
+  color: #000000; /* Testo nero */
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 25%; /* Imposta la larghezza del wrapper in base alle tue esigenze */
+  margin: 0 auto ; /* Centra il wrapper orizzontalmente */
+  
+
+
+  text-align: center;
+	align-items: center;
+	vertical-align: middle;
+  
+}
+
+
+.iscrizione a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+/* Accedi section */
+.accedi {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.accedi h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.accedi form {
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accedi label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.accedi input[type="email"],
+.accedi input[type="password"] {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.accedi button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    margin-bottom: 2rem;
+  }
+}

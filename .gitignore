@@ -1,0 +1,7 @@
+# File e cartelle specifici da ignorare 
+#riga 5 Ignora la cartella "node_modules" che contiene le dipendenze di Node.js
+#riga 6 Ignora tutti i file di log
+#riga 7 Ignora il file .env con le variabili d'ambiente sensibili
+node_modules/  
+*.log        
+*.env        
